@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/search-a-2d-matrix">Search a 2D Matrix</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an <code>m x n</code> integer matrix <code>matrix</code> with the following two properties:</p>
+# 74. Search a 2D Matrix
+
+🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)
+
+**Topics:** Array, Binary Search, Matrix
+
+---
+
+<p>You are given an <code>m x n</code> integer matrix <code>matrix</code> with the following two properties:</p>
 
 <ul>
 	<li>Each row is sorted in non-decreasing order.</li>
@@ -33,3 +41,8 @@
 	<li><code>1 &lt;= m, n &lt;= 100</code></li>
 	<li><code>-10<sup>4</sup> &lt;= matrix[i][j], target &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+---
+
+**My Solution:** [74-Search-a-2D-Matrix.cpp](./74-Search-a-2D-Matrix.cpp)
