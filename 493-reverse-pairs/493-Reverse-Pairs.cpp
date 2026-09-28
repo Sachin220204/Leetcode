@@ -17,23 +17,19 @@ public:
         int i = 0;
         int j = 0;
         int count = 0;
-        while(i<n1 and j<n2)
-        {
-            if(left[i] >= right[j])
-            {
+        while(i<n1 and j<n2){
+            if(left[i] >= right[j]){
                 arr[k++] = right[j++];
             }
             else
             arr[k++] = left[i++];
         }
         
-        while(i < n1)
-        {
+        while(i < n1){
             arr[k++] = left[i++];
         }
         
-        while(j < n2)
-        {
+        while(j < n2){
             arr[k++] = right[j++];
         }
         
